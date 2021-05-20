@@ -2,7 +2,7 @@
 ## Please add below code
 ```
 module "rds" {
-    source = "farrukh90/rds-instance/aws"
+    source = "diyoras/rds-instance/aws"
     region              = "us-east-2"
     identifier          = "dbname"
     allocated_storage   = 20
